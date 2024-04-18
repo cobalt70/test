@@ -15,7 +15,7 @@ struct ContentView: View {
     //abc
     var body: some View {
         Text("hello mac andy hera and and so")
-        Text("hello again ")
+        Text("hello ")
        
     }
 
