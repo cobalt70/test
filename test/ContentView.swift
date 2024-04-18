@@ -12,7 +12,9 @@ struct ContentView: View {
     @Environment(\.modelContext) private var modelContext
     @Query private var items: [Item]
 
+    //abc
     var body: some View {
+        Text("hello mac andy hera")
         NavigationSplitView {
             List {
                 ForEach(items) { item in
